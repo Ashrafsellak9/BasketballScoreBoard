@@ -30,3 +30,10 @@ const addThreeGuest = () => {
     scoreG += 3
     guestScore.textContent = scoreG
 }
+
+const newGame = () => {
+    homeScore.textContent = 0
+    guestScore.textContent = 0
+    scoreH = 0
+    scoreG = 0
+}
